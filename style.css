@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #ffccd5, #ffc2d1, #ffb3c6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 370px;
+    background: rgba(255,255,255,0.8);
+    backdrop-filter: blur(20px);
+    border-radius: 35px;
+    padding: 40px 25px;
+    text-align: center;
+    box-shadow: 0 25px 60px rgba(255,105,180,0.3);
+}
+
+.avatar {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 4px solid #ff8fab;
+}
+
+h1 {
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.bio {
+    color: #555;
+    margin-bottom: 25px;
+}
+
+.btn {
+    display: block;
+    padding: 15px;
+    border-radius: 40px;
+    text-decoration: none;
+    margin-bottom: 25px;
+    font-weight: bold;
+    background: linear-gradient(135deg, #ff8fab, #fb6f92);
+    color: white;
+    box-shadow: 0 10px 30px rgba(255,105,180,0.4);
+    transition: 0.3s;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
+
+.sale {
+    background: #fff0f6;
+    padding: 15px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.sale .gift {
+    color: #ff4d6d;
+    font-weight: bold;
+}
+
+.price {
+    background: #ffe5ec;
+    padding: 15px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.price h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.gallery h2 {
+    margin-bottom: 10px;
+}
+
+.photos {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.photos img {
+    width: 90px;
+    height: 90px;
+    border-radius: 15px;
+    object-fit: cover;
+}
